@@ -29,7 +29,7 @@ public class DashEngine : ModuleRules
 	public DashEngine(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "AIModule", "PerfCounters", "ApexDestruction", "AssetRegistry" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "AIModule", "PerfCounters", "ApexDestruction", "AssetRegistry", "PhysicsCore" });
 		PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 
 
